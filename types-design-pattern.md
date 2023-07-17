@@ -5,3 +5,14 @@
 2. Structural: These patterns are designed with regard to a class's structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition.
 
 3. Behavioral:  These patterns are designed depending on how one class communicates with others.
+
+# Creational design pattern list:
+- Builder
+- Simple Factory
+- Factory Method
+- Prototype
+- Singleton
+- Abstract Factory
+- Object Pool
+
+- we are going to talk about builder.
