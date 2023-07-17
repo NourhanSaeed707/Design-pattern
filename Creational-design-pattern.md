@@ -4,6 +4,7 @@
 - Imagine that we want to build software that accepts customers' details and stores them in a database. Customers are shown a form that accepts the below **mandatory** and **optional** fields.
 - **Mandatory Fields** - First Name, Last Name, Primary Email, and Primary Mobile Number
 - **Optional Fields** - Middle Name, Secondary Email, and Secondary Mobile Number
+- Ideally, we create a Customer class with the **mandatory** and **optional** attributes listed above. We create a constructor that accepts the above attributes. Since some attributes are optional, we may need to pass null values to those attributes we don't want to use. The builder design pattern lets us create an object step by step without passing all the values to the constructor.
 
 ## 1. Buider:
 - Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the Object contains a lot of attributes. There are three major issues with Factory and Abstract Factory design patterns when the Object contains a lot of attributes.
