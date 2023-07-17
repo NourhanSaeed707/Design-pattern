@@ -1,5 +1,9 @@
 # Creational Design Pattern: 
 - These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
+## When Will We Need Builder Design Pattern?
+- Imagine that we want to build software that accepts customers' details and stores them in a database. Customers are shown a form that accepts the below **mandatory** and **optional** fields.
+- **Mandatory Fields** - First Name, Last Name, Primary Email, and Primary Mobile Number
+- **Optional Fields** - Middle Name, Secondary Email, and Secondary Mobile Number
 
 ## 1. Buider:
 - Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the Object contains a lot of attributes. There are three major issues with Factory and Abstract Factory design patterns when the Object contains a lot of attributes.
