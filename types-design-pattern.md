@@ -1,4 +1,4 @@
-## Design pattern:
+# Design pattern:
 - there are three types of design pattern: 
 1. Creational: These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
 
@@ -6,7 +6,7 @@
 
 3. Behavioral:  These patterns are designed depending on how one class communicates with others.
 
-# Creational design pattern list:
+## Creational design pattern list:
 - Builder
 - Simple Factory
 - Factory Method
