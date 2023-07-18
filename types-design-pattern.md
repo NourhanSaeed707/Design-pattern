@@ -1,7 +1,6 @@
 # Design pattern:
 - GoF Patterns(Gang of Four design pattern)
 - Modern Patterns
-- we're going to study Gang of Four Pattern and here is a example of it:
 ## GoF Design Pattern Types:
 1. Creational: These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
 
