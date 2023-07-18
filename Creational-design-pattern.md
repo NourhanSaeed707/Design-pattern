@@ -21,3 +21,6 @@
 2. Java Builder class should have a public constructor with all the required attributes as parameters.
 3. Java Builder class should have methods to set the optional parameters and it should return the same Builder object after setting the optional attribute.
 4. The final step is to provide a **build()** method in the builder class that will return the Object needed by client program. For this we need to have a private constructor in the Class with Builder class as argument.
+![builder-design](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/271be5e0-99d2-49e0-a6df-07c6833fbd48)
+
+
