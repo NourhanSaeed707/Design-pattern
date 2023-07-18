@@ -1,5 +1,5 @@
 # Design pattern:
-- GoF Patterns(Gang of Four design pattern)
+- GoF Patterns(Gangs of Four design pattern)
 - Modern Patterns
 ## GoF Design Pattern Types:
 1. Creational: These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
