@@ -33,6 +33,9 @@
 ## 1. implement product class and builder class:
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/0ed0bd44-71bf-4f83-87a0-e2d21781ba55)
 
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/441ac773-0b4e-46c0-af3e-b0a907e6ead0)
+
+
 
 
 
