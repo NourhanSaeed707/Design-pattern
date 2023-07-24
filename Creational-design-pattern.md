@@ -35,6 +35,14 @@
 
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/441ac773-0b4e-46c0-af3e-b0a907e6ead0)
 
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/edb9537e-6155-4e36-ae46-7bbd7e552c63)
+
+
+- We implement product class(User) and add to it all properties and private constructor that have a **builder** as parameter
+- and have all getter methods, Then implement **UserBuilder** and have contructor that have mandatory attributes as parameters
+- then have all setter methods to set all optional attributes to builder and have a build function to builder and return product class(User).
+- then in main make a instance from User and call UserBuilder and chain methods to build user.
+
 
 
 
