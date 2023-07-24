@@ -29,4 +29,10 @@
 - **ConcreteBuilder**: There may be any number of concrete builder classes inheriting from Builder. These classes contain the functionality to create a particular complex product.
 - **Director**: The director-class controls the algorithm that generates the final product object. A director object is instantiated and its Construct method is called. The method includes a parameter to capture the specific concrete builder object that is to be used to generate the product. The director then calls methods of the concrete builder in the correct order to generate the product object. On completion of the process, the GetProduct method of the builder object can be used to return the product.
 
+## We have two ways to implement builder pattern:
+## 1. implement product class and builder class:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/0ed0bd44-71bf-4f83-87a0-e2d21781ba55)
+
+
+
 
