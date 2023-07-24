@@ -43,6 +43,18 @@
 - then have all setter methods to set all optional attributes to builder and have a build function to builder and return product class(User).
 - then in main make a instance from User and call UserBuilder and chain methods to build user.
 
+## 2. Implement product class, Builder, Concrete Builder, Director:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e540f1b7-e254-49c6-86c1-363c8bd1f174)
+
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/a928700a-a69d-41cf-aa65-d4672f2f09e1)
+
+![Uploading image.png…]()
+![Uploading image.png…]()
+
+
+
+
+
 
 
 
