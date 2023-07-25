@@ -33,5 +33,7 @@
 # Design Considerations:
 - **A Simple Factory** will in turn use other design pattern like builder to construct objects.
 
+# Example of Simple Factory:
+- The java.NumberFormat class has **getInstance method**, which is an example of **Simple Factory**.
 
 
