@@ -37,6 +37,9 @@
 - The java.NumberFormat class has **getInstance method**, which is an example of **Simple Factory**.
  
 # Pitfalls:
-- The criteria use by **Simple Factory** to decide which object to instantiate can get more Convoluted/Complex over time, if you find yourself in this situation that a good indicator to use **Factory Method**
+- The criteria use by **Simple Factory** to decide which object to instantiate can get more Convoluted/Complex over time, if you find yourself in this situation that a good indicator to use **Factory Method**.
+
+# Summary:
+- Simple Factory doesnot consider as **Design pattern** by many people and the reason for that simply a encapsulation of our object creation logic.
 
 
