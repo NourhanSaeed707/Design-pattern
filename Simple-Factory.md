@@ -7,7 +7,7 @@
 ## Why, When?
 - Typically we want to do this if we have more than one option when instantiating object and simple logic is used to choose correct class.
 ## Implement a Simple Factory: 
-- We start by creating a separate class for our simple factor
-- Add method which returns desired object instance
+- We start by creating a separate class for our **Simple factor**.
+- Add method which returns desired object instance.
 - This method is typically static and will accept some agruments to decide which class to instantiate.
 - you can also provide additional arguments which will be used to instantiate object. 
