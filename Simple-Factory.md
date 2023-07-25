@@ -30,5 +30,8 @@
 - **Simple Factory** can be just a method in existing class, Adding a separate class allows other parts of your code to use simple factory more easily.
 - **A Simple Factory** it self doesnot need a state tracking so it's best to keep it as static method.
 
+# Design Considerations:
+- **A Simple Factory** will in turn use other design pattern like builder to construct objects.
+
 
 
