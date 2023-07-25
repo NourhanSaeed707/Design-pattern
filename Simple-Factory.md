@@ -10,4 +10,10 @@
 - We start by creating a separate class for our **Simple factor**.
 - Add method which returns desired object instance.
 - This method is typically static and will accept some agruments to decide which class to instantiate.
-- you can also provide additional arguments which will be used to instantiate object. 
+- you can also provide additional arguments which will be used to instantiate object.
+
+## Example:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/df4218f4-84f5-4184-a253-6675e05df2bd)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/6a306d52-aae0-4cde-84fd-1d09363892f0)
+
+
