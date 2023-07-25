@@ -22,9 +22,13 @@
 
 
 ## Explanation:
-- Here we have a Main class Post and there are three other classes **(NewsPost, BlogPost, ProductPost)** these classes inherit from Post class
+- Here we have a Main class **Post** and there are three other classes **(NewsPost, BlogPost, ProductPost)** these classes inherit from **Post** class
 - Then we create a new class called **PostFactory** that represent **Simple Factory** and create a static method and take argument of type to decide which class we will instantiate, so we write switch and in every case we create a new instance (object) depende on which type we choose .
-- And then create a client class and main function and then create a instance from **BlogPost** or **ProductPost** or **NewsPost** 
+- And then create a client class and main function and then create a instance from **BlogPost** or **ProductPost** or **NewsPost** .
+
+# Implementation Considerations:
+- **Simple Factory** can be just a method in existing class, Adding a separate class allows other parts of your code to use simple factory more easily.
+- **A Simple Factory** it self doesnot need a state tracking so it's best to keep it as static method.
 
 
 
