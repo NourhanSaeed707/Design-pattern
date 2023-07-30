@@ -5,3 +5,8 @@
 
 ## Example of Factory Method in java:
 - the java.util.Collection (or java.util.AbstractCollection) has an abstract method called **iterator()** This an example of factory method.
+
+## Pitfalls:
+- More complex to implement. More classes involved and need unit testing.
+- You have to start with **Factory method** from the beginning. it's not easy to refactor existing code into factory method pattern.
+- Sometimes this pattern forces you to subclass just to create appropriate instance.
