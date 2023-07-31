@@ -20,6 +20,15 @@
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/2c4fda19-5f97-4e28-bd9b-cd29dc5e9ec5)
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/957e519b-c95b-40d0-b28d-859b8b515cb9)
 
+# Explanation:
+- Here we have a product class **(Message)** and there are two other classes **(JsonMessage, TextMessage)** these classes are **concrete classes**, that inherit from product class(Message).
+- We make a make a creator class **(MessageCreator)** that have a factory method **(createMessage)** that other concrete classes **(JSONMessageCreator, TextMessageCreator)** will override on it so that every class of it can instantiate a instance of it.
+- In JSONMessageCreator class a methd that override on factory method and instantiate a instance from JsonMessage.
+- In TextMessageCreator class a methd that override on factory method and instantiate a instance from TextMessage.
+- In client class i have two methods main method and printMessage(), a printMessage method take a object of MessageCreator and return a message
+- in Main method we make a instance of JSONMessageCreator and TexrMessageCreator in printMethod.
+- in this we achieve a factory method by create a creator class and put in it a factory method that every concrete creator class can override on it, so that we let user decide which class to instantiate.
+
 
 
 
