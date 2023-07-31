@@ -26,7 +26,7 @@
 - In JSONMessageCreator class a methd that override on factory method and instantiate a instance from JsonMessage.
 - In TextMessageCreator class a methd that override on factory method and instantiate a instance from TextMessage.
 - In client class i have two methods main method and printMessage(), a printMessage method take a object of MessageCreator and return a message
-- in Main method we make a instance of JSONMessageCreator and TexrMessageCreator in printMethod.
+- in Main method we make a instance of JSONMessageCreator and TextMessageCreator in printMethod.
 - in this we achieve a factory method by create a creator class and put in it a factory method that every concrete creator class can override on it, so that we let user decide which class to instantiate.
 
 
