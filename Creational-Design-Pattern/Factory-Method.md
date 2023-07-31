@@ -32,6 +32,9 @@
 
 ## Difference between Factory method and Simple factory:
 - **Factory method** uses inheritance to specialize object creation and **Simple factory** doesn't use inheritance.
+- **Simple Factory** is normally called by client via a static method, and returns one of several objects that all inherit/implement the same parent.
+- **The Factory method** is really all about a "Create" method is implemented by subclasses.
+
 
 
 
