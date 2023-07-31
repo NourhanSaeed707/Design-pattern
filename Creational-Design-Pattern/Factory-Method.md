@@ -30,6 +30,9 @@
 - in Main method we make a instance of **JSONMessageCreator** and **TextMessageCreator** in printMethod.
 - in this we achieve a factory method by create a creator class and put in it a factory method that every concrete creator class can override on it, so that we let user decide which class to instantiate.
 
+## Difference between Factory method and Simple factory:
+- **Factory method** uses inheritance to specialize object creation and **Simple factory** doesn't use inheritance.
+
 
 
 
