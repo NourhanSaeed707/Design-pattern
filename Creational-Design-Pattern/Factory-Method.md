@@ -10,3 +10,19 @@
 - More complex to implement. More classes involved and need unit testing.
 - You have to start with **Factory method** from the beginning. it's not easy to refactor existing code into factory method pattern.
 - Sometimes this pattern forces you to subclass just to create appropriate instance.
+
+## Example:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/edb8e0a5-5235-4703-9169-bc899e1261ad)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/387afbf3-1e12-44ad-bc82-5c7f01d23116)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/670ae295-0856-438c-b7f8-55e54f6b2bb1)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/7c8d6ae0-f291-4773-8378-b5261f95d331)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e96823cf-952f-4127-b53e-b13d02876d89)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/2c4fda19-5f97-4e28-bd9b-cd29dc5e9ec5)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/957e519b-c95b-40d0-b28d-859b8b515cb9)
+
+
+
+
+
+
+
