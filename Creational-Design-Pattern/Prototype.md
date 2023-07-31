@@ -11,5 +11,5 @@
 - The class must implement Cloneable interface.
 - Class should override clone method and return copy of itself.
 - The method should declare CloneNotSupportedException in throws clause to give subclasses chance to decide on whether to support cloing.
-- Clone method implementation should consider the deep copy(we will create all objects that are needed by our prototype object) and shallow copy(is simply copy the object's properties into the new copy) and choose whatever is applicable.
+- Clone method implementation should consider the deep copy **(we will create all objects that are needed by our prototype object)** and shallow copy **(is simply copy the object's properties into the new copy)** and choose whatever is applicable.
 
