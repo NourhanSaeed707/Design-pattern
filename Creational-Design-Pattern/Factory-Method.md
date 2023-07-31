@@ -5,6 +5,7 @@
 
 ## Example of Factory Method in java:
 - the java.util.Collection (or java.util.AbstractCollection) has an abstract method called **iterator()** This an example of factory method.
+- you might want to display each element. The easiest way to do this is to employ an iterator, which is **an object** that implements either the Iterator or the ListIterator interface.
 
 ## Pitfalls:
 - More complex to implement. More classes involved and need unit testing.
