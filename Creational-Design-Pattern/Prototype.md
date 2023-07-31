@@ -6,3 +6,10 @@
 # When use Prototype: 
 - Prototype patterns are required, when object creation is time consuming, and costly operation, so we create objects with the existing object itself. One of the best available ways to create an object from existing objects is the clone() method. Clone is the simplest approach to implement a prototype pattern. However, it is your call to decide how to copy existing object based on your business model.
 
+# Implement a Prototype:
+- We start by creating a class which will be a prototype.
+- The class must implement Cloneable interface.
+- Class should override clone method and return copy of itself.
+- The method should declare CloneNotSupportedException in throws clause to give subclasses chance to decide on whether to support cloing.
+- Clone method implementation should consider the deep copy(we will create all objects that are needed by our prototype object) and shallow copy(is simply copy the object's properties into the new copy) and choose whatever is applicable.
+
