@@ -13,5 +13,9 @@
 - Class should override clone method and return copy of itself.
 - The method should declare CloneNotSupportedException in throws clause to give subclasses chance to decide on whether to support cloing.
 - Clone method implementation should consider the deep copy **(we will create all objects that are needed by our prototype object)** and shallow copy **(is simply copy the object's properties into the new copy)** and choose whatever is applicable.
-- The Clone method implemented similarly in all classes. This method create an object of the current class and transfers all old objects's attributes to the new one, Even the private fields can be copied because most of programming language allow objects to access the private fields of other objects of same class. 
+- The Clone method implemented similarly in all classes. This method create an object of the current class and transfers all old objects's attributes to the new one, Even the private fields can be copied because most of programming language allow objects to access the private fields of other objects of same class.
+
+# UML diagram for Prototype Creational design pattern:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/4b071294-0dd0-4661-a1b8-8441e75712ac)
+
 
