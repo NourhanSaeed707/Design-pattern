@@ -49,7 +49,7 @@
 # Explanation:
 1. First we have a main class (Animal class) that have a a method **makeCopy()** to make copy(clone) of object.
 2. We have a Sheep class to implements Animal interface and ovveride of **makeCopy()** method to make copy of object.
-3. Then make **CloneFactoy** class to get copied object.
+3. Then make **CloneFactory** class to get copied object.
 4. then in client class make a instance of main class and make copy of that instance and use it.
 5. we have to know that every instance of it (main instance and copy instance ) have different memory location.
 
