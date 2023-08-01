@@ -40,4 +40,21 @@
 6. **Difficulty in applying the pattern to existing systems:** Integrating the Prototype pattern into an existing codebase or system can be challenging, especially if the codebase was not designed with prototype-based object creation in mind. Retrofitting the pattern may require refactoring existing code and making significant changes to the object creation logic.
 7. **Limited compile-time type checking:** Since the Prototype pattern relies on cloning existing objects, compile-time type checking may be limited. The types of the cloned objects may not be known until runtime, which can potentially lead to errors if the cloned objects are not compatible with the client code’s expectations.
 
+# Implemenatation: 
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e5400e76-4487-48ec-a63a-241f38513cf5)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/417d282e-2d0b-4016-814a-195eeaf62a41)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/705f8baf-8e6b-440e-96f9-0eba559719f0)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/87f811ab-e0e5-4f3b-937b-fca69cfe018b)
+
+# Explanation:
+1. First we have a main class (Animal class) that have a a method **makeCopy()** to make copy(clone) of object.
+2. We have a Sheep class to implements Animal interface and ovveride of **makeCopy()** method to make copy of object.
+3. Then make **CloneFactoy** class to get copied object.
+4. then in client class make a instance of main class and make copy of that instance and use it.
+5. we have to know that every instance of it (main instance and copy instance ) have different memory location.
+
+  
+
+
+
 
