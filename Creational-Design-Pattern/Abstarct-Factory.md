@@ -4,6 +4,7 @@
 - if i have a bunch of objects or products that do familiar jobs or context then i use **Abstract class**.
 - Abstract Factory Design Pattern, as the name suggests is an abstraction over Factory design pattern. It is one of the creational design patterns. As a factory pattern allows us to create a generic factory of one or more than one type of object, extending the same behavior abstract factory design pattern allows us to create a factory of factories, one level above the abstraction in the factory design pattern.
 - Consider a real-life analogy, just like a factory can create products or objects, similarly, an industry can create multiple factories. So industry can be understood as the abstract factory pattern, and a single factory can be understood as the factory pattern.
+- A product family or "Kit" has classes whose objects work with each other to achieve some functionality. These classes can belong to different inheritance hierachy
 
 # Implementation Abstract factory:
 - We start by studing the product "sets"
