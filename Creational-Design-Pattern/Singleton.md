@@ -41,6 +41,11 @@
 - Then create a static method **getInstance()** to get instance of this class, First we have to make sure that no instance is created and make sure to handle Synchronize mechanism so we write a if condition to make sure that **INSTANCE** == NULL so that mean no instance is created, then inside use Synchronize block and as double check we have to make sure that our **INSTANCE** == NULL again beacuse it may happen that two threads might call our instance method both see that INSTANCE == NULL as soon as we hit our Synchronize block one of threads is going to get the lock and start executing the code and create instance second one is going to wait.
 - **volatile**: it will indicate to these threads that they shouldn't use the cached version of this variables.
 
+## Example of Lazy instantiation (Lazy Singleton):
+- Singleton pattern using Lazy instantiation holder class (private class). This ensures that, We have a lazy intialization without worrig about synchronization. 
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e9564a04-e198-49f8-b972-af1525eb2c30)
+
+
 
 
 
