@@ -6,5 +6,5 @@
 - In other words, a class must ensure that only single instance should be created and single object can be used by all other classes.
 
 # There are two forms of singleton design pattern:
-- **Early Instantiation:** creation of instance at load time.
-- **Lazy Instantiation:** creation of instance when required.
+- **Early Instantiation (Eager Singleton):** Create singleton as soon as class is loaded.
+- **Lazy Instantiation (Lazy Singleton):** Singleton is created when it is first required.
