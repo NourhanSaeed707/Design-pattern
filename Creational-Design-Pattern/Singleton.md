@@ -17,7 +17,18 @@
 # How to create Singleton design pattern?
 - To create the singleton class, we need to have static member of class, private constructor and static factory method.
 - ***Static method:*** it gets memory only because its static, it contains instance of the Singleton class.
-- ***Private Constructor:*** it prevent instantiate Singleton class from outside the class.
-- ***Static factory method:*** This provides the global point of access to Singleton object and returns the instance to the caller. 
+- ***Private Constructor:*** it prevent instantiate Singleton class from outside the class. So we can't inherit from this class.
+- ***Static factory method:*** This provides the global point of access to Singleton object and returns the instance to the caller.
+
+## Example of Early Instantiation (Eager Singleton):
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/a16ffb03-d69f-4621-88e7-4b88c91da193)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/6bc8552b-df04-430d-8e80-0a896a62d862)
+
+# Explanation:
+- We start by creating a EagerRegistry class (Early Singleton class),Then create a private constructor that mean this class can't be inherited
+- Then create a static method to create a instance (object) of EagerRegistry (Singleton class).
+- Then create a static method to return a instance of EagerRegistry (Singleton class).
+
+
 
 
