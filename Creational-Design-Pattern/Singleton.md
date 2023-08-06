@@ -59,6 +59,9 @@
 # Design Consideration:
 - Singleton doesn't need any parameters from outside, if you find yourself need of support of constructor arguments, you need **a simple factory** or **factory method** pattern instead.
 
+## Example of Singleton in java:
+- java.lang.Runtime
+
 
 
 
