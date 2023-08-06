@@ -16,6 +16,8 @@
 
 # How to create Singleton design pattern?
 - To create the singleton class, we need to have static member of class, private constructor and static factory method.
-- *Static method:*
+- ***Static method:*** it gets memory only because its static, it contains instance of the Singleton class.
+- ***Private Constructor:*** it prevent instantiate Singleton class from outside the class.
+- ***Static factory method:*** This provides the global point of access to Singleton object and returns the instance to the caller. 
 
 
