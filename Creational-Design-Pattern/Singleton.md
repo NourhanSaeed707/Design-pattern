@@ -62,6 +62,17 @@
 ## Example of Singleton in java:
 - java.lang.Runtime
 
+# Pitfalls:
+- they are hard to unit test.
+- It can lead to tightly coupled code.
+
+## Summary:
+- Singleton is used when you want to ensure that only one instance of class exists in application.
+- in java we achieve this by making constructor private, this also prevent inheritance and providing a public static method which returns the singleton instance.
+- Implementation wise we have two choices:
+  1. Early/Eager instantiation we create a instance as soon as the class is loaded.
+  2. Lazy instantiation we create a instance when request is required.
+- Always prefer Early instantiation unless creation cost is high.
 
 
 
