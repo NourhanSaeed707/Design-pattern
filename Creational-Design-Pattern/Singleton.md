@@ -28,6 +28,8 @@
 - We start by creating a EagerRegistry class (Early Singleton class),Then create a private constructor that mean this class can't be inherited
 - Then create a static method to create a instance (object) of EagerRegistry (Singleton class).
 - Then create a static method to return a instance of EagerRegistry (Singleton class).
+- in client class we create a two object of EagerRegistery and call **getInstance()** function to get a instance of EagerRegister.
+- and System.out.println(eagerRegistry == eagerRegistry2); will return true if two objects point to the same object and it will return true because **eagerRegistry** and **eagerRegistry2** create a instance of **EagerRegistery**.
 
 
 
