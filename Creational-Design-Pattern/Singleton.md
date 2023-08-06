@@ -44,6 +44,13 @@
 ## Example of Lazy instantiation (Lazy Singleton):
 - Singleton pattern using Lazy instantiation holder class (private class). This ensures that, We have a lazy intialization without worrig about synchronization. 
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e9564a04-e198-49f8-b972-af1525eb2c30)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/b76a1898-2378-4d2d-954f-b5ac85975d66)
+
+## Explanation: 
+- We create a class LazyRegistryIODH (Singleton class) and create a private constructor to make sure nobody can create object of this class outside the class.
+- Then create a static private holder class called **RegistryHolder** that class have static member to instantiate a instance of **LazyRegistryIODH (Singleton class)**.
+- Create a static method to return a instance of **LazyRegistryIODH** inside this method we call a **RegistryHolder** and call a instance from it, that help us to get rid of synchronization
+
 
 
 
