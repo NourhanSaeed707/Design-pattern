@@ -25,11 +25,21 @@
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/6bc8552b-df04-430d-8e80-0a896a62d862)
 
 # Explanation:
-- We start by creating a EagerRegistry class (Early Singleton class),Then create a private constructor that mean this class can't be inherited
+- We start by creating a EagerRegistry class (Early Singleton class),Then create a private constructor that mean this class can't be inherited and to make sure that nobody can create instance of our class outside of this class.
 - Then create a static method to create a instance (object) of EagerRegistry (Singleton class).
 - Then create a static method to return a instance of EagerRegistry (Singleton class).
 - in client class we create a two object of EagerRegistery and call **getInstance()** function to get a instance of EagerRegister.
 - and System.out.println(eagerRegistry == eagerRegistry2); will return true if two objects point to the same object and it will return true because **eagerRegistry** and **eagerRegistry2** create a instance of **EagerRegistery**.
+
+## Example of Lazy instantiation (Lazy Singleton):
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/435a7574-1843-4ed7-a115-848b09707208)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/39a0beb1-d00d-43aa-b6de-fb5c26c5dce6)
+
+## Explanation: 
+- We first create a LazyRegistryWithDCL class, Then create a private constructor to make sure that nobody can create object of this class outside class.
+- Then create a static member **LazyRegistryWithDCL instance** This variable is going to hold our Singleton instance.
+- Then create a static method **getInstance()** to get instance of this class, First we have to make sure that no instance is created and make sure to handle Synchronize mechanism so we write a if condition to make sure that **INSTANCE** == NULL so that mean no instance is created, then inside use Synchronize block and as double check we have to make sure that our **INSTANCE** == NULL again beacuse it may happen that two threads might call our instance method both see that INSTANCE == NULL as soon as we hit our Synchronize block one of threads is going to get the lock and start executing the code and create instance second one is going to wait.
+- **volatile**: it will indicate to these threads that they shouldn't use the cached version of this variables.
 
 
 
