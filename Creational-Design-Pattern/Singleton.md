@@ -51,6 +51,14 @@
 - Then create a static private holder class called **RegistryHolder** that class have static member to instantiate a instance of **LazyRegistryIODH (Singleton class)**.
 - Create a static method to return a instance of **LazyRegistryIODH** inside this method we call a **RegistryHolder** and call a instance from it, that help us to get rid of synchronization
 
+# Implementation Consideration:
+- Early/Eager initialization is the simplest and preferred way. Always try to use this approach first.
+- The "Classic" singleton pattern implementation uses double check locking and volatile field.
+- The lazy intialization holder idiom provides best of both world, you don't deal with synchronization issues
+- You can implement Singleton by enum.
+# Design Consideration:
+- Singleton doesn't need any parameters from outside, if you find yourself need of support of constructor arguments, you need **a simple factory** or **factory method** pattern instead.
+
 
 
 
