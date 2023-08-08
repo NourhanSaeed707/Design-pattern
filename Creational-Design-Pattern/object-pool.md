@@ -20,3 +20,6 @@
 - a thread-safe caching of objects should be done in pool.
 - Methods to acquire and release objects should be provided and pool should reset cached objects before giving them out.
 - We have to decide whether to create a new pooled objects when pool is empty or wait until an object become available, Choice is influenced by whether the object is tied to fixed number of external resource, So if your glass object is tied with an external resource which is limited in nature, then of course. You have to wait, Or if you have access to unlimited resources or if your object doesn't depend on any external resource, then you can keep on creating new objects and then cashing them when they are returned to your pool.
+
+# Example: 
+- java.util.concurrent.ThreadPoolExecutor
