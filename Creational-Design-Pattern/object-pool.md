@@ -1,4 +1,4 @@
-# Wahat is Object Pool?
+# What is Object Pool?
 - In our system if **cost of creating an instance of class** is high and we need **a large number of objects** of this class for short duration then we use ***Object pool***.
 - Here we either pre-create instance of this class or collect unused instances in a memory cache. When code need an object of this class we provided it from this cache.
 - Mostly, performance is the key issue during the software development and the object creation, which may be a costly step.
@@ -14,3 +14,9 @@
 # Usage:
 - When an application requires objects which are expensive to create. Eg: there is a need of opening too many connections for the database then it takes too longer to create a new one and the database server will be overloaded.
 - When there are several clients who need the same resource at different times.
+
+## Implementation of object pool:
+- We start by creating class for object pool
+- a thread-safe caching of objects should be done in pool.
+- Methods to acquire and release objects should be provided and pool should reset cached objects before giving them out.
+- We have to decide whether to create a new pooled objects when pool is empty or wait until an object become available, Choice is influenced by whether the object is tied to fixed number of external resource, So if your glass object is tied with an external resource which is limited in nature, then of course. You have to wait, Or if you have access to unlimited resources or if your object doesn't depend on any external resource, then you can keep on creating new objects and then cashing them when they are returned to your pool.
