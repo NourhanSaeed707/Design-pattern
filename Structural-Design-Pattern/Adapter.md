@@ -5,6 +5,8 @@
 # There are two types of Adapter;
 1. Class Adapter (Two way adapter)
 2. Object Adapter
+# What do we mean by term "Two way adapter" in Adapter design pattern?
+- The object of adapter class can stand in for the real object and it can also work where object object of "Target" interface is expected. 
 
 ## Implementation 1:
 # UML
