@@ -1,6 +1,10 @@
 # What is Adapter?
 - Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
-- This pattern aslo called as **"Wrapper"**
+- This pattern aslo called as **"Wrapper"**.
+
+# There are two types of Adapter;
+1. Class Adapter (Two way adapter)
+2. Object Adapter
 
 ## Implementation 1:
 # UML
