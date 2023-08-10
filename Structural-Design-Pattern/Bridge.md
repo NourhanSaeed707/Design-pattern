@@ -21,4 +21,4 @@
 - Then we have a two concrete implementor. that implements Implemenor **(LinkedList)** that classes are **SinglyLinkedList** and **ArrayLinkedList**
 
 # Example in java:
-- java.sql.DriverManager class
+- java.sql.DriverManager class with java.sql.Driver
