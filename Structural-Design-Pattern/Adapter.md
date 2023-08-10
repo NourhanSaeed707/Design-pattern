@@ -12,6 +12,7 @@
 ## Implementation 2:
 - we have client class, **target** interface that the client needs,**Adaptee** class that have functionality that client needs.
 - and we have **objectAdapter** class that implements target interface and instead of inherit from Adaptee class w have a inner object of Adaptee inside this **objectAdapter**, and this preferred way to implement.
+- So we using composition instead of inheritance.
 
 
 
