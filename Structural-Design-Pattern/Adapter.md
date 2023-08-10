@@ -31,6 +31,7 @@
 - This best way to use constructor to define adaptee.
 - we using composition instead of inheritace.
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/47fe3de4-7e20-4e5e-a882-b042e52eaa74)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/fc545cc5-461c-4f0e-852b-6b7ac3ffb018)
 
 
 
