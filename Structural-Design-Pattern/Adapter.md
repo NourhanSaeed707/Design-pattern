@@ -14,6 +14,14 @@
 - and we have **objectAdapter** class that implements target interface and instead of inherit from Adaptee class w have a inner object of Adaptee inside this **objectAdapter**, and this preferred way to implement.
 - So we using composition instead of inheritance.
 
+# Implementation:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/76cab885-4f12-4252-8ee3-d9c7239630b1)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/5b160e7e-bf5d-4251-9ded-3a18f20e4b0a)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/45ef4148-1ce6-4288-b1e8-c3b581845148)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/02c41948-abe8-4e13-9048-bc4debf77d08)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/00d26c3e-0e5a-48ec-b2e9-7836c5418e67)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/35ddcfea-b564-4683-ba97-60d628a5c8f7)
+
 
 
 
