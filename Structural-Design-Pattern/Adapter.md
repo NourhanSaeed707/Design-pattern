@@ -37,6 +37,9 @@
 - java.io.InputStreamReader and java.io.OutputStreamWriter classes are example of Object Adapter.
 - These classes adapt existing InputStream/OutputStream object a Reader/Writer interface.
 
+# Pitfalls:
+- One of the drawbacks of using the adapter pattern is that it introduces additional overhead and complexity to your code. The adapter class acts as an intermediary between the two interfaces, which means that it has to perform extra operations to convert the data, handle exceptions, and delegate calls
+
 
 
 
