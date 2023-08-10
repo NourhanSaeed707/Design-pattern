@@ -21,4 +21,8 @@
 - Then we have a two concrete implementor. that implements Implemenor **(LinkedList)** that classes are **SinglyLinkedList** and **ArrayLinkedList**
 
 # Example in java:
-- java.sql.DriverManager class with The java.sql.Driver interface form a bridge patter
+- java.sql.DriverManager class with The java.sql.Driver interface form a bridge pattern
+
+# Compare between bridge and adapter:
+- The adapter is designed to allow a third party application to work with your application. Conversely, so that your application can work with third party applications.
+- Using the bridge pattern, it is supposed to connect two or more applications without implementing an adapter.
