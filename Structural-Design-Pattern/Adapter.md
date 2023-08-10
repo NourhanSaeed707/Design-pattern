@@ -3,6 +3,9 @@
 - This pattern aslo called as **"Wrapper"**
 
 ## Implementation 1:
+# UML
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/e23d2de9-9ce4-45cd-bfec-19dc38d76d2a)
+
 - we have a client class, target interface that the client needs, Adaptee class that have functionality that client needs.
 - and we have Adapter class to combine between target and Adaptee by implements target and extends from Adapter class.
 
