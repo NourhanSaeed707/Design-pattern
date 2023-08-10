@@ -22,10 +22,13 @@
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/00d26c3e-0e5a-48ec-b2e9-7836c5418e67)
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/35ddcfea-b564-4683-ba97-60d628a5c8f7)
 
-# Explanation:
+# Explanation Adapter class:
 - We have a client class **(BusinessCardDesigner)**, Adaptee class **(Employee)** that have functionality tha client class needs, we have a target interface that client needs **(Customer)**, we have Adapter class **(EmployeeClassAdapter)** that implements **Customer** and inherit from **Employee**.
 - Then we have a 3 methods that implements Customer class and we have call inside it methods from Employee class to help us to implement method
-- Then in main class we instantiate a object from **(EmployeeClassAdapter)** and instance from  **(BusinessCardDesigner)** and call a **(designCard())** that expects a Customer class 
+- Then in main class we instantiate a object from **(EmployeeClassAdapter)** and instance from  **(BusinessCardDesigner)** and call a **(designCard())** that expects a Customer class
+
+# Implementation Object Adapter:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/47fe3de4-7e20-4e5e-a882-b042e52eaa74)
 
 
 
