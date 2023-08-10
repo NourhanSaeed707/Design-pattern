@@ -19,3 +19,6 @@
 # Explanation:
 - We have a abstraction **(FifoCollection)** and Implementor **(LinkedList)**,  have a refined Abstraction **(Queue)** that implements **(FifoCollection)** and inside **Queue** we hava a object from Implementor **(LinkedList)** that mean of composition.
 - Then we have a two concrete implementor. that implements Implemenor **(LinkedList)** that classes are **SinglyLinkedList** and **ArrayLinkedList**
+
+# Example in java:
+- java.sql.DriverManager class
