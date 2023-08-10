@@ -1,5 +1,6 @@
 # Defination:
 - Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies abstraction and implementation—which can be developed independently of each other.
+- is used to decouple the interfaces from implementation and hiding the implementation details from the client programs.
 - There are 2 parts in Bridge design pattern : 
 1. Abstraction
 2. Implementation
