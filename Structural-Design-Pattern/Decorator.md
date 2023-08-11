@@ -24,3 +24,7 @@
 
 # Example of Decorator in java:
 - java.io.BufferedOutputStream, This improves i/o performance by reducing number of writes.
+
+# Pitfalls:
+- a large number of classes being added to the system, which each class adds small amount of functionality. You end up with lots of objects, one nested inside another and so on.
+- Sometimes new comers will start using it as a replacement of inheritance in every scenario, as decorator using composition.
