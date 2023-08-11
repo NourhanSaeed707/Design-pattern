@@ -8,3 +8,4 @@
 - Concrete Component implements component.
 - We define our decorator, Decorator implements component and also needs reference to concrete component.
 - In decorator methods we provide additional behaviour on top that provided by concrete component instance.
+- Decorator can be abstract class, and depend on subclasses tp provided functionality.
