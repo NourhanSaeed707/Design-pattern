@@ -28,3 +28,6 @@
 # Pitfalls:
 - a large number of classes being added to the system, which each class adds small amount of functionality. You end up with lots of objects, one nested inside another and so on.
 - Sometimes new comers will start using it as a replacement of inheritance in every scenario, as decorator using composition.
+
+## what a "recursive composition" mean in decorator?
+- this is what recursive compsition means in Decorator design pattern. We can wrap a decorator with another and derive some awesome functionality which builds on top of what is provided.
