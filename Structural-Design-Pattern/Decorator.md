@@ -21,3 +21,6 @@
 - First we make a component class **(Message)** and Concrete component **(TextMessage)** that implements **Message interface**.
 - Then we implement a Decorator class **(HtmlEncodedMessage)** to implement a component and we get a instance from message and initialize it in constructor and implement the method of Message component in **(HtmlEncodedMessage)** and add a behviour on it StringEscapeUtils.escapeHtml4().
 - then we implement client and call a decorator **(HtmlEncodedMessage)**.
+
+# Example of Decorator in java:
+- java.io.BufferedOutputStream, This improves i/o performance by reducing number of writes.
