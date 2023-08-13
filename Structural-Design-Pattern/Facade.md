@@ -20,3 +20,7 @@
 - This has two primary benefits.
 1. Your code is much easier to read since instead of having to read five lines of code to understand what is going on we only need to read one line. This becomes an even larger benefit if the underlying code is longer or more complex.
 2. Your code is easier to change since all the code for saving the user is in one single place. If we need to modify this code to add an additional step to also validate the username is not taken it is trivial since we just need to add that code in one single place. If we did not use the facade pattern, though, we would need to add that code to every single place we save a user which could be all over your application.
+
+# UML:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/80e879ab-529f-4b1c-9331-501ded35fbfd)
+
