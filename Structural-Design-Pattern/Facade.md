@@ -1,2 +1,2 @@
 # Defination:
-- 
+- Client has to interact with a large number of interfaces and classes in a subsystem to get result, and this interaction because client needs some functionality that is provided by this particular subsystem, So if you want to make any changes to these classes or interfaces you have to make sure that your client is going to work with these changes, So client gets tightly coupled with those interfaces and classes, Facade solves this problem.
