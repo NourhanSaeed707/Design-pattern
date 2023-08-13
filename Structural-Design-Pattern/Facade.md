@@ -1,5 +1,6 @@
 # Defination:
 - Client has to interact with a large number of interfaces and classes in a subsystem to get result, and this interaction because client needs some functionality that is provided by this particular subsystem, So if you want to make any changes to these classes or interfaces you have to make sure that your client is going to work with these changes, So client gets tightly coupled with those interfaces and classes, Facade solves this problem.
+- Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system, This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
 - **Facade** provides a simple and unified interface to a subsystem, Client interacts with just **Facade** now to get some result.
 - Facade NOT just one to one method forwarding to other classes.
 
