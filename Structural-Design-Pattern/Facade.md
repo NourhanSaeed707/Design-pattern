@@ -32,4 +32,7 @@
 - Here before we create a EmailFacade class client was calling a function to send email.
 - So to use Facade we create a class EmailFacade and move logic of **sendOrderEmailWithoutFacade() function** inside a method inside **EmailFacade class** so in the client we only make a instance of **EmailFacade** and call a method to send email so by that we make facade deal with the logic and client only call facade.
 
+# Example of Facade in java:
+- java.net.URL class is greate example of facade, This class provide a simple method called as openStream() and we get an input stream to the resource pointed by URL object.
+
 
