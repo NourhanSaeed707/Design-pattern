@@ -24,3 +24,12 @@
 # UML:
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/80e879ab-529f-4b1c-9331-501ded35fbfd)
 
+## Example:
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/abc83acd-0d56-4943-a471-03129a0762df)
+![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/3227e249-9fe4-4167-8a0a-fb8f916272e2)
+
+## Explanation:
+- Here before we create a EmailFacade class client was calling a function to send email.
+- So to use Facade we create a class EmailFacade and move logic of **sendOrderEmailWithoutFacade() function** inside a method inside **EmailFacade class** so in the client we only make a instance of **EmailFacade** and call a method to send email so by that we make facade deal with the logic and client only call facade.
+
+
