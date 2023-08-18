@@ -26,7 +26,10 @@
 
 # Pitfalls:
 - java's dynamic proxy only works if your class is implementing one or more interfaces, Proxy is created by implementing these interfaces.
-- if you need proxies for handling multiple responsibilities like auditing, authentication as a stand-in for the same instance. it's better to have single proxy to handle all these requirments. 
+- if you need proxies for handling multiple responsibilities like auditing, authentication as a stand-in for the same instance. it's better to have single proxy to handle all these requirments.
+
+# What is usage of proxy design pattern?
+- lazy loading of collection by hibernate
 
 
 
