@@ -22,6 +22,7 @@
 # Example in java:
 - Hibernate use proxy design pattern to load a collection of value types.
 - Spring uses proxy to provide support for features like transaction, caching and general AOP support.
+- Hibernate and spring both can create proxies for classes which do not implement any interface
 
 
 
