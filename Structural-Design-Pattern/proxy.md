@@ -5,8 +5,10 @@
 # UML:
 ![image](https://github.com/NourhanSaeed707/Design-pattern/assets/64387352/2722c858-b000-4ff1-970a-0e37e04ae046)
 
-Implement a proxy:
+## Implement a proxy:
 - We start by implementing proxy
 - Proxy must implement same interface as real subject
 - We can create actual object later when required or ask for one in constructor.
 - In method implementations of proxy we implement proxy's function before delegating to real object.
+
+
