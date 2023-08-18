@@ -24,5 +24,9 @@
 - Spring uses proxy to provide support for features like transaction, caching and general AOP support.
 - Hibernate and spring both can create proxies for classes which do not implement any interface
 
+# Pitfalls:
+- java's dynamic proxy only works if your class is implementing one or more interfaces, Proxy is created by implementing these interfaces.
+- if you need proxies for handling multiple responsibilities like auditing, authentication as a stand-in for the same instance.  
+
 
 
